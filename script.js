@@ -18,5 +18,5 @@ function vamosConversor() {
     }
   
     let valorEmReais = valorEmDolar / taxaDeCambio;
-    document.getElementById("resultado").innerText = `Valor em Reais: $${valorEmReais.toFixed(2)}`;
+    document.getElementById("resultado").innerText = `Valor em Dolar: $${valorEmReais.toFixed(2)}`;
   }
